@@ -1,0 +1,19 @@
+// Styling for the services section
+.event-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+/* keyframe animation for fade-in */
+@keyframes eventFading {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* class for elements to fade in */
+.event-fading {
+  animation: eventFading 5s;
+  animation-fill-mode: both;
+}
+
+

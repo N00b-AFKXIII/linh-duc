@@ -1,0 +1,9 @@
+--- # -----------------
+#Color Customization
+highlight: "#212529"
+white: "#fff"
+black: "#000"
+
+#Image Customization
+header-image: "../img/cunmeo.jpg"
+rsvp-image: "../img/sunset.jpg"

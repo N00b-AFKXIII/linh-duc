@@ -1,0 +1,31 @@
+<section class="bg-light page-section" id="{{ site.data.sitetext.invitation.section | default: " invitation" }}">
+  <div class="container" id="containerEvent">
+
+    <div class="row event-main">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.invitation.title | default: "Invitation" }}</h2>
+        {% if site.data.sitetext.invitation.text %}
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.invitation.text }}</h3>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="row text-center">
+      {% for invit in site.data.sitetext.invitation.list %}
+      <div class="col-md-12 event-item event-fading">
+        <span class="fa-stack fa-6x">
+          <i class="fas fa-circle fa-stack-2x text-main"></i>
+          <i class="{{ invit.icon | default: " fas fa-champagne-glasses" }} fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="event-heading">
+          <a href="{{invit.map}}" target="_blank">{{ invit.title | markdownify }}</a>
+        </h4>
+        {% if invit.time %}<div class="text-muted">{{ invit.time | markdownify }}</div>{% endif %}
+        {% if invit.place %}<div class="text-muted">{{ invit.place | markdownify }}</div>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+

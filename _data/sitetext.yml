@@ -1,0 +1,86 @@
+--- # -----------------
+header:
+  title: Invitation
+  text: Invitation
+  button: Save the Date!
+  buttonlink: "#about"
+  music: "D-6JDufCJ1Y"
+about:
+  title: "We are getting married !!! "
+  text: "Trân trọng kính mời bạn và gia đình đến tham dự ngày trọng đại của chúng tôi."
+  body: 
+  section: about
+  img: assets/img/rings.png
+  
+invitation:
+  title: "Invitation"
+  text: "Save the date"
+  section: invitation
+  list:
+    #- title: "[Lễ ăn hỏi](https://www.google.com)"
+    #  time: "Thời gian: 10 giờ Ngày 10 tháng 3 năm 2023."
+    #  place: ""
+    #  icon: fas fa-gifts
+    - title: "Lễ cưới Linh và Đức"
+      map: "https://goo.gl/maps/99QLgre1Y5bEgSZ18"
+      time: "Lúc 17 giờ 30, Thứ 7 Ngày 11 tháng 3 năm 2023."
+      place: "Marina Bay Resort & Spa, 115 Trần Phú, Phường 5, TP Vũng Tàu, Việt Nam"
+      icon: fas fa-champagne-glasses
+
+timeline:
+  title: "Wedding Timeline"
+  text: "Dòng sự kiện cho lễ cưới"
+  section: timeline
+  start_align: "left"
+  events:
+    - title: "Guest welcoming"
+      year: "17 giờ 30 (5.30 PM)"
+      desc: "Cô dâu chú rể đón khách.<br>
+        Mọi người chụp ảnh kỉ niệm ở khu vực Backdrop."
+      image: assets/img/timeline/welcome.png
+      cursor: assets/icon/timeline/photo.png
+    - title: "Wedding ceremony"
+      year: "19 giờ 00 (7.00 PM)"
+      desc: "Lễ thành hôn."
+      image: assets/img/timeline/wedding_ceremony.png
+      cursor: assets/icon/timeline/ceremony.png
+    - title: "Dinner"
+      year: "19 giờ 30 (7.30 PM)"
+      desc: "Cô dâu chú rể mời mọi người cùng nhập tiệc."
+      image: assets/img/timeline/dinner.png
+      cursor: assets/icon/timeline/dinner.png
+    - title: "Game time"
+      year: "20 giờ 45 (8.45 PM)"
+      desc: "Cô dâu chú rể tham gia trò chơi cùng khách và giành những món quà kỉ niệm"
+      image: assets/img/timeline/game.png
+      cursor: assets/icon/timeline/game.png
+    - title: "Farewell"
+      year: "22 giờ 00 (10.00 PM)"
+      desc: "Cô dâu chú rể chụp ảnh kỉ niệm và chào tạm biệt khách tham gia."
+      image: assets/img/timeline/thanks.png
+      cursor: assets/icon/timeline/bed.png
+  end:
+    desc: "Be Part <br> of Our <br> Big Day!"
+    cursor: assets/icon/timeline/couple.png
+
+rsvp:
+  title: "What are you waiting for ?"
+  text: "Vui lòng xác nhận tham dự để tụi mình có thể sắp xếp và đón tiếp chu đáo nhất!"
+  section: rsvp
+  name: "Tên bạn *"
+  email: "Email của bạn"
+  numberGuests: "Số khách đi kèm *"
+  message: "Yêu cầu khác"
+  submit: "Gửi xác nhận"
+
+footer:
+  legal: "Privacy Policy"
+  social:
+    - url: https://twitter.com
+      icon: "fab fa-twitter"
+    - url: https://facebook.com
+      icon: "fab fa-facebook-f"
+    - url: https://linkedin.com
+      icon: "fab fa-linkedin-in"
+    - url: https://instagram.com
+      icon: "fab fa-instagram"
