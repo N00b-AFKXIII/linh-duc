@@ -18,18 +18,7 @@ title      : Linh Duc Wedding
 email      : my_zodiac_leo1108@yahoo.com #this is also the email contact forms will go to
 description: "Site description"
 author     : Linh Duc
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
-
-
 
 markdown: kramdown
-
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-formspree_form_path: "f/meqwozbl"
-
-music: TKlXc3iywoM
 
 rsvpform: h0p9gbgezkekj
