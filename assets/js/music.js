@@ -54,6 +54,7 @@ function switchVideo(secondVideoId) {
 function handleMusicButton(newVideoId) {
 
     if(!player){
+        console.log("Player" + player);
         player = onYouTubeIframeAPIReady();
     }
     
