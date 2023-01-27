@@ -68,8 +68,8 @@ rsvp:
   text: "Vui lòng xác nhận tham dự để tụi mình có thể sắp xếp và đón tiếp chu đáo nhất!"
   section: rsvp
   name: "Tên bạn *"
-  email: "Email của bạn"
   numberGuests: "Số khách đi kèm *"
+  numberChildren: "Số lượng trẻ em đi kèm *"
   message: "Yêu cầu khác"
   submit: "Gửi xác nhận"
 
