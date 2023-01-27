@@ -3,13 +3,13 @@
 nav:
   - title: "About"
     section: about
-    music: "D-6JDufCJ1Y"
+    ##music: "D-6JDufCJ1Y"
   - title: "Invitation"
     section: invitation
-    music: "TKlXc3iywoM"
+    ##music: "TKlXc3iywoM"
   - title: "Timeline"
     section: timeline
-    music: "09R8_2nJtjg"
+    ##music: "09R8_2nJtjg"
   - title: "RSVP"
     section: rsvp
     music: "acvIVA9-FMQ"
